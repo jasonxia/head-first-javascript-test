@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "node_modules\\.bin\\qunit -c math.js -t tests/math_tests.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "qunit": "^0.6.2"
+  }
+}
